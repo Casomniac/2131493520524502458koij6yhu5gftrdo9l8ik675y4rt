@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link rel="stylesheet" href="static/fonts/stylesheet.css">
+    <link rel="stylesheet" href="static/css/normalize.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="menu-slide-container">
+    <div class="menu-slide">
+        <div class="menu-slide__close">
+            <div class="menu-slide__close-area">CLOSE
+                <div class="menu-slide__close-button"></div>
+            </div>
+        </div>
+        <ul class="menu-slide__list ">
+            <li class="menu-slide__item menu-slide__item_message">
+                <a href="" class="menu-slide__link menu-slide__link_message">MESSAGE</a>
+                <div class="menu-slide__notification menu-slide__message-notification">
+                    <span class="menu-slide__notification-text notifications__messages">+999</span>
+                </div>
+            </li>
+            <li class="menu-slide__item menu-slide__item_home">
+                <a href="" class="menu-slide__link menu-slide__link_home">HOME</a>
+            </li>
+            <li class="menu-slide__item menu-slide__item_timefinder">
+                <a href="" class="menu-slide__link menu-slide__link_timefinder">TIMEFINDER</a>
+            </li>
+            <li class="menu-slide__item menu-slide__item_news">
+                <a href="" class="menu-slide__link menu-slide__link_news">NEWS</a>
+            </li>
+            <li class="menu-slide__item menu-slide__item_friends">
+                <a href="" class="menu-slide__link menu-slide__link_friends">FRIENDS</a>
+                <div class="menu-slide__notification menu-slide__friends-notification">
+                    <span class="menu-slide__notification-text notifications__friends">+5</span>
+                </div>
+            </li>
+            <li class="menu-slide__item menu-slide__item_account">
+                <a href="" class="menu-slide__link menu-slide__link_account">ACCOUNT</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="menu-slide-opacity">
+
+</div>
+<header>
+    <div class="header-container" style="background: url(static/img/character.png) center/cover">
+        <div class="header_top">
+            <div class="wrap wrap_header_top">
+                <div class="head-menu">
+                    <div class="head-menu__burger">
+                        <span class="burger-item_middle"></span>
+                    </div>
+                    <nav class="menu">
+                        <span class="menu__item">
+                            <a class="menu__link" href="#">HOME</a>
+                        </span>
+                        <span class="menu__item">
+                            <a class="menu__link" href="#">TIMEFINDER</a>
+                        </span>
+                        <span class="menu__item">
+                            <a class="menu__link" href="#">NEWS</a>
+                        </span>
+                    </nav>
+                    <div class="search">
+                        <form>
+                            <input class="search__bar" type="text" placeholder="Enter Full Battletag for PSN or XBox">
+                            <button class="search__button" type="submit"></button>
+                        </form>
+                        <div class="triangle-left"></div>
+                        <div class="triangle-right"></div>
+                    </div>
+                    <div class="social">
+                        <span class="nick-name">MOZ4RT#2338</span>
+                        <div class="icon__sheet">
+                            <svg class="icon icon_1">
+                                <use xlink:href="static/img/sprite_sheet.svg#profile"/>
+                            </svg>
+                            <svg class="icon icon_2">
+                                <use xlink:href="static/img/sprite_sheet.svg#messages"/>
+                            </svg>
+                            <svg class="icon icon_3">
+                                <defs>
+                                    <linearGradient id="MyGradient">
+                                        <stop offset="0%"  stop-color="#ed2c00"/>
+                                        <stop offset="100%" stop-color="#efa516"/>
+                                    </linearGradient>
+                                </defs>
+                                <use xlink:href="static/img/sprite_sheet.svg#star"/>
+                            </svg>
+                            <svg class="icon icon_4">
+                                <use xlink:href="static/img/sprite_sheet.svg#likes"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_bottom">
+            <div class="wrap">
+                <div class="main-info">
+                    <div class="profile__info">
+                        <div class="profile__avatar" style="background: url(static/img/avatar.png) center/cover">
+                            <span class="profile__platform">PC EU</span>
+                            <span class="profile__level">29</span>
+                        </div>
+                        <div class="profile__info_text">
+                            <p class="profile__nick-name">Moz4rt</p>
+                            <span class="profile__mmr">mmr:
+                                <span class="profile__mmr_number text__color_orange">1800</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="rank__info">
+                        <p class="rank__info_text">INTERMEDIATE RANK
+                            <span class="rank__info_score text__color_orange">A+</span>
+                        </p>
+                        <p class="rank__info_rating">0-30:
+                            <span class="rank__info_position">1th</span>
+                        </p>
+                        <div class="rank__info-triangle_left"></div>
+                        <div class="rank__info-triangle_right"></div>
+                    </div>
+                    <div class="profile__stat">
+                        <div class="profile__stat-top">
+                            <p class="profile__helpfulness">HELPFULNESS
+                                <span class="profile__percentage text__color_orange">76%</span>
+                                <span class="profile__helpfulness-triangle"></span>
+                            </p>
+                            <p class="profile__grade">very good
+                                <span class="profile__grade-bar">
+                                    <span style="width: 63.3%" class="profile__grade-bar_active"></span>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="profile__stat-bottom">
+                            <ul class="profile__stat-list">
+                                <li class="stat-list__item stats-info">
+                                    <p class="stats-info__title">winrate</p>
+                                    <p class="stats-info__text stats-info__text_winrate">47%</p>
+                                </li>
+                                <li class="stat-list__item stats-info">
+                                    <p class="stats-info__title">K/D</p>
+                                    <p class="stats-info__text stats-info__text_k/d">0.72</p>
+                                </li>
+                                <li class="stat-list__item stats-info">
+                                    <p class="stats-info__title">HEAL</p>
+                                    <p class="stats-info__text stats-info__text_heal">0.72</p>
+                                </li>
+                                <li class="stat-list__item stats-info">
+                                    <p class="stats-info__title">DAMAGE</p>
+                                    <p class="stats-info__text stats-info__text_damage">686</p>
+                                </li>
+                                <li class="stat-list__item stats-info">
+                                    <p class="stats-info__title">ELIMINATIONS</p>
+                                    <p class="stats-info__text stats-info__text_eliminations">1.6</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="favourite-hero">
+                        <p class="favourite-hero__title">PRIMARY HERO</p>
+                        <p class="favourite-hero__name">Doomfist</p>
+                    </div>
+                </div>
+                <div class="time-of-play">
+                    <div class="time-of-play__offense time-of-play-item" style="width: 21.55%">
+                        <p class="time-of-play-item__text">OFFENSE
+                            <span class="time-of-play-item__stat">11M 59S</span>
+                        </p>
+                    </div>
+                    <div class="time-of-play__defense time-of-play-item" style="width: 21.55%">
+                        <p class="time-of-play-item__text">DEFENCE
+                            <span class="time-of-play-item__stat">11M 59S</span>
+                        </p>
+                    </div>
+                    <div class="time-of-play__tank time-of-play-item" style="width: 35.33%">
+                        <p class="time-of-play-item__text">TANK
+                            <span class="time-of-play-item__stat">18M 59S</span>
+                        </p>
+                    </div>
+                    <div class="time-of-play__support time-of-play-item" style="width: 21.55%">
+                        <p class="time-of-play-item__text">SUPPORT
+                            <span class="time-of-play-item__stat">11M 59S</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    <div class="container">
+        <div class="global-stats">
+            <div class="wrap wrap__global-stats">
+                <div class="global-stats__inner">
+                    <div class="global-stats-all-char">
+                        <div class="all-char-inner">
+                            <div class="global-stats__view-heroes global-stats__view-heroes_active">view all heroes</div>
+                            <div class="all-stats-container-inner all-stats-container-inner_all-char">
+                                <div class="all-stats-shape all-stats-shape_all-char">
+                                    <div class="all-stats-shape__inner all-stats-shape__inner_all-char"></div>
+                                </div>
+                                <p class="all-stats__text">All stats</p>
+                            </div>
+                            <div class="all-char-container">
+                                <ul class="all-char-list">
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_doomfist_3" data-id="progress-doomfist__link" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/doomfist_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char common_char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_winston_4" data-id="progress-winston__link" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/winston_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_soldier_2" data-id="progress-soldier__link" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/soldier_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char common_char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_junkrat_2" data-id="progress-junkrat__link" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/junkrat_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_winston_5" data-id="progress-winston_2__link" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/winston_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_winston_6" data-id="progress-winston_3__link" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/winston_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_winston_7" data-id="progress-winston_3__link" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/winston_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_winston_8" data-id="progress-winston_3__link" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/winston_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                </ul>
+                                <ul class="all-char-list">
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_doomfist_4" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/doomfist_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_winston_9" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/winston_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_soldier_3" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/soldier_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_junkrat_3" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/junkrat_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_winston_10" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/winston_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_winston_11" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/winston_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_winston_12" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/winston_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_winston_13" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/winston_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                </ul>
+                                <ul class="all-char-list">
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_doomfist_5" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/doomfist_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_winston_14" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/winston_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_soldier_4" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/soldier_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_junkrat_4" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/junkrat_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_winston_15" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/winston_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_winston_16" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/winston_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_winston_17" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/winston_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_winston_18" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/winston_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                </ul>
+                                <ul class="all-char-list">
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_doomfist_6" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/doomfist_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_winston_19" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/winston_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_soldier_5" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/soldier_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_junkrat_5" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/junkrat_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_winston_20" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/winston_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_winston_21" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/winston_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_winston_22" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/winston_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                    <li class="all-char__item common-char-container">
+                                        <canvas id="progress_winston_23" class="all-char__diagram common_char" width="32" height="32"></canvas>
+                                        <span style="background: url(static/img/winston_allChar.png) center no-repeat" class="progress-diagram__img progress-diagram__img_all-char"></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="global-stats__left">
+                        <div class="global-stats-container global-stats-container_top">
+                            <h2 class="global-stats__heading">roles</h2>
+                            <div class="roles-list">
+                                <div class="roles__item">
+                                    <svg class="roles__icon">
+                                        <use xlink:href="static/img/roles-sheet.svg#sword"/>
+                                    </svg>
+                                    <p class="global-stats__text">offence
+                                        <span class="global-stats__rate global-stats__rate_roles">medium</span>
+                                    </p>
+                                    <div class="global-stats__rate-bar">
+                                        <span style="width: 43.33%" class="global-stats__rate-bar_progress"></span>
+                                    </div>
+                                </div>
+                                <div class="roles__item">
+                                    <svg class="roles__icon">
+                                        <use xlink:href="static/img/roles-sheet.svg#shield"/>
+                                    </svg>
+                                    <p class="global-stats__text">defence
+                                        <span class="global-stats__rate global-stats__rate_roles">not bad</span>
+                                    </p>
+                                    <div class="global-stats__rate-bar">
+                                        <span style="width: 55.5%" class="global-stats__rate-bar_progress"></span>
+                                    </div>
+                                </div>
+                                <div class="roles__item">
+                                    <svg class="roles__icon">
+                                        <use xlink:href="static/img/roles-sheet.svg#fist"/>
+                                    </svg>
+                                    <p class="global-stats__text">tank
+                                        <span class="global-stats__rate global-stats__rate_roles">good</span>
+                                    </p>
+                                    <div class="global-stats__rate-bar">
+                                        <span style="width: 66.6%" class="global-stats__rate-bar_progress"></span>
+                                    </div>
+                                </div>
+                                <div class="roles__item">
+                                    <svg class="roles__icon">
+                                        <use xlink:href="static/img/roles-sheet.svg#med-kit"/>
+                                    </svg>
+                                    <p class="global-stats__text">support
+                                        <span class="global-stats__rate global-stats__rate_roles">very good</span>
+                                    </p>
+                                    <div class="global-stats__rate-bar">
+                                        <span style="width: 86.6%" class="global-stats__rate-bar_progress"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="global-stats-container">
+                            <div class="ranked-games-top">
+                                <h2 class="global-stats__heading">ranked games</h2>
+                                <div class="win-rate win-rate_ranked">
+                                    <p class="win-rate__text">total winrate
+                                        <span class="win-rate__rate_ranked text__color_orange">47%</span>
+                                    </p>
+                                    <div class="win-rate__score">medium
+                                        <div class="win-rate__grade-bar win-rate__grade-bar_ranked">
+                                            <div style="width: 63.33%" class="win-rate__grade-bar_active_ranked"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ranked-games-list">
+                                <div class="ranked-games__item">
+                                    <div style="background: url(static/img/winston.png) center no-repeat" class="ranked-games__character-pic ranked-games__character-pic_color_white"></div>
+                                    <p class="global-stats__rate_victory">win</p>
+                                </div>
+                                <div class="ranked-games__item">
+                                    <div style="background: url(static/img/tracer.png) center no-repeat" class="ranked-games__character-pic"></div>
+                                    <p class="global-stats__rate_victory">win</p>
+                                </div>
+                                <div class="ranked-games__item">
+                                    <div style="background: url(static/img/McCree.png) center no-repeat" class="ranked-games__character-pic"></div>
+                                    <p class="global-stats__rate_victory">lose</p>
+                                </div>
+                                <div class="ranked-games__item">
+                                    <div style="background: url(static/img/winston.png) center no-repeat" class="ranked-games__character-pic"></div>
+                                    <p class="global-stats__rate_victory">win</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="global-stats-container">
+                            <div class="last-games-top">
+                                <h2 class="global-stats__heading">last games</h2>
+                                <div class="win-rate win-rate_last">
+                                    <p class="win-rate__text">total winrate
+                                        <span class="win-rate__rate_last text__color_orange">47%</span>
+                                    </p>
+                                    <div class="win-rate__score">medium
+                                        <div class="win-rate__grade-bar win-rate__grade-bar_last">
+                                            <div style="width: 63.33%" class="win-rate__grade-bar_active_last"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="last-games-list">
+                                <div class="last-games__item">
+                                    <div style="background: url(static/img/winston.png) center no-repeat" class="last-games__character-pic last-games__character-pic_color_white"></div>
+                                    <p class="global-stats__rate_victory">win</p>
+                                </div>
+                                <div class="last-games__item">
+                                    <div style="background: url(static/img/tracer.png) center no-repeat" class="last-games__character-pic"></div>
+                                    <p class="global-stats__rate_victory">win</p>
+                                </div>
+                                <div class="last-games__item">
+                                    <div style="background: url(static/img/McCree.png) center no-repeat" class="last-games__character-pic"></div>
+                                    <p class="global-stats__rate_victory">win</p>
+                                </div>
+                                <div class="last-games__item">
+                                    <div style="background: url(static/img/winston.png) center no-repeat" class="last-games__character-pic"></div>
+                                    <p class="global-stats__rate_victory">win</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="global-stats-container global-stats-container_bottom">
+                            <div class="progress-container">
+                                <div class="progress-container__left">
+                                    <h2 class="global-stats__heading">progress</h2>
+                                    <div class="progress-rate-container">
+                                        <div class="progress-rate__score">+ 0.38
+                                            <div class="progress-rate__growth"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress-container__right">
+                                    <h2 class="global-stats__heading">lately, most often:</h2>
+                                    <div class="progress-diagram-container">
+                                        <canvas id="progress_doomfist" width="64" height="64" class="all-stats__link"></canvas>
+                                        <span style="background: url(static/img/doomfist.png) center no-repeat" class="progress-diagram__img"></span>
+                                    </div>
+                                    <div class="progress-diagram-character">
+                                        <p class="progress-character__name">doomfist</p>
+                                        <p class="progress-character__hours">44h</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="global-stats__center">
+                        <div class="global-stats-container global-stats-container_character-stats">
+                            <h2 class="global-stats__heading">CHARACTER’S STATS</h2>
+                            <div class="character-stats-inner">
+                                <div class="character-stats-container">
+                                    <canvas id="win-and-lose" width="106" height="106"></canvas>
+                                    <div class="character-stats-score-container">
+                                        <div class="character-stats__text character-stats__text_win-lose">win / lose</div>
+                                        <div class="character-stats__value character-stats__value_win-lose">24</div>
+                                    </div>
+                                </div>
+                                <div class="character-stats-container">
+                                    <canvas id="k-and-d" width="106" height="106"></canvas>
+                                    <div class="character-stats-score-container">
+                                        <div class="character-stats__text character-stats__text_k-d">k / d</div>
+                                        <div class="character-stats__value character-stats__value_k-d">0.72</div>
+                                    </div>
+                                </div>
+                                <div class="character-stats-container">
+                                    <canvas id="damage" width="106" height="106"></canvas>
+                                    <div class="character-stats-score-container">
+                                        <div class="character-stats__text character-stats__text_k-d">damage</div>
+                                        <div class="character-stats__value character-stats__value_k-d">688</div>
+                                    </div>
+                                </div>
+                                <div class="character-stats-container">
+                                    <canvas id="eliminations" width="106" height="106"></canvas>
+                                    <div class="character-stats-score-container">
+                                        <div class="character-stats__text character-stats__text_k-d">eliminations</div>
+                                        <div class="character-stats__value character-stats__value_k-d">1.6</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="global-stats-container global-stats-container_response">
+                            <h2 class="global-stats__heading">response</h2>
+                            <div class="response-inner">
+                                <div class="response-container">
+                                    <canvas id="like-and-report" height="106" width="106"></canvas>
+                                    <div class="response-stats-score-container">
+                                        <div class="response-stats__text response-stats__text_like-report">like / report</div>
+                                        <div class="response-stats__value response-stats__value_like-report">
+                                            <span class="response-value__like">18</span>
+                                            <span class="response-value__slash">/</span>
+                                            <span class="response-value__report">12</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="response-container">
+                                    <div class="response-text">
+                                        <h2 class="response-best-player__heading">Best player
+                                            <span class="response-best-player__value">146</span>
+                                        </h2>
+                                        <p class="response-total-rank__text">total rank
+                                            <span class="response-total-rank__value">A+</span>
+                                        </p>
+                                        <p class="response-total-rank__text_bottom">
+                                            <span class="response-total-rank__position_player">1 from</span>
+                                            <span class="response-total-rank__position_all-players">1 324 912</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="global-stats__right">
+                        <div class="global-stats__view-heroes">view all heroes</div>
+                        <div class="all-stats-container">
+                            <div class="all-stats-container-inner_shape">
+                                <div class="all-stats-shape">
+                                    <div class="all-stats-shape__inner"></div>
+                                </div>
+                                <div class="all-stats__text">
+                                    <p class="all-stats__text_all">all</p>
+                                    <p class="all-stats__text_stats">stats</p>
+                                </div>
+                            </div>
+                            <div class="all-stats-container-inner">
+                                <div class="all-stats-diagram-container common-char-container">
+                                    <canvas id="progress_doomfist_2" data-id="progress-doomfist__link" class="all-stats__main-char common_char" width="64" height="64"></canvas>
+                                    <span style="background: url(static/img/doomfist.png) center no-repeat" class="progress-diagram__img"></span>
+                                </div>
+                                <div class="all-stats__text">
+                                    <p class="all-stats__text_character-name">winston</p>
+                                    <p class="all-stats__text_char-time-of-play">44h</p>
+                                </div>
+                            </div>
+                            <div class="all-stats-container-inner">
+                                <div class="all-stats-diagram-container common-char-container">
+                                    <canvas id="progress_winston" data-id="progress-winston__link" class="all-stats__main-char common_char" width="64" height="64"></canvas>
+                                    <span style="background: url(static/img/winston.png) center no-repeat" class="progress-diagram__img"></span>
+                                </div>
+                                <div class="all-stats__text">
+                                    <p class="all-stats__text_character-name">winston</p>
+                                    <p class="all-stats__text_char-time-of-play">44h</p>
+                                </div>
+                            </div>
+                            <div class="all-stats-container-inner">
+                                <div class="all-stats-diagram-container common-char-container">
+                                    <canvas id="progress_soldier" data-id="progress-soldier__link" class="all-stats__main-char common_char" width="64" height="64"></canvas>
+                                    <span style="background: url(static/img/soldier.png) center no-repeat" class="progress-diagram__img"></span>
+                                </div>
+                                <div class="all-stats__text">
+                                    <p class="all-stats__text_character-name">soldier: 76</p>
+                                    <p class="all-stats__text_char-time-of-play">44h</p>
+                                </div>
+                            </div>
+                            <div class="all-stats-container-inner">
+                                <div class="all-stats-diagram-container common-char-container">
+                                    <canvas id="progress_junkrat" data-id="progress-junkrat__link" class="all-stats__main-char common_char" width="64" height="64"></canvas>
+                                    <span style="background: url(static/img/junkrat.png) center no-repeat" class="progress-diagram__img"></span>
+                                </div>
+                                <div class="all-stats__text">
+                                    <p class="all-stats__text_character-name">junkrat</p>
+                                    <p class="all-stats__text_char-time-of-play">44h</p>
+                                </div>
+                            </div>
+                            <div class="all-stats-container-inner">
+                                <div class="all-stats-diagram-container common-char-container">
+                                    <canvas id="progress_winston_2" data-id="progress-winston_2__link" class="all-stats__main-char common_char" width="64" height="64"></canvas>
+                                    <span style="background: url(static/img/winston.png) center no-repeat" class="progress-diagram__img"></span>
+                                </div>
+                                <div class="all-stats__text">
+                                    <p class="all-stats__text_character-name">winston</p>
+                                    <p class="all-stats__text_char-time-of-play">44h</p>
+                                </div>
+                            </div>
+                            <div class="all-stats-container-inner">
+                                <div class="all-stats-diagram-container common-char-container">
+                                    <canvas id="progress_winston_3" data-id="progress-winston_3__link" class="all-stats__main-char common_char" width="64" height="64"></canvas>
+                                    <span style="background: url(static/img/winston.png) center no-repeat" class="progress-diagram__img common_char"></span>
+                                </div>
+                                <div class="all-stats__text">
+                                    <p class="all-stats__text_character-name">winston</p>
+                                    <p class="all-stats__text_char-time-of-play">44h</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var ctxWin = document.getElementById('win-and-lose').getContext('2d');
+            var orangeRedGradient = ctxWin.createLinearGradient(0, 50, 100, 50);
+            orangeRedGradient.addColorStop(0, "#ff0000");
+            orangeRedGradient.addColorStop(1, "#efa515");
+            var doughnuts = {
+                "progress_doomfist": [[55, 45], ["#ff7a00", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_doomfist_2": [[55, 45], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_doomfist_3": [[55, 45], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_doomfist_4": [[55, 45], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_doomfist_5": [[55, 45], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_doomfist_6": [[55, 45], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_winston": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_winston_2": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_winston_3": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_winston_4": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_winston_5": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_winston_6": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_winston_7": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_winston_8": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_winston_9": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_winston_10": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_winston_11": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_winston_12": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_winston_13": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_winston_14": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_winston_15": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_winston_16": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_winston_17": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_winston_18": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_winston_19": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_winston_20": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_winston_21": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_winston_22": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_winston_23": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_soldier": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_soldier_2": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_soldier_3": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_soldier_4": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_soldier_5": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_junkrat": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_junkrat_2": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_junkrat_3": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_junkrat_4": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                "progress_junkrat_5": [[28, 72], ["#3a3672", "#ffffff"], [0, 0], 90, -0.5 * Math.PI],
+                'win-and-lose': [[45, 55], [orangeRedGradient, "#ffffff"], [0, 0], 87, -0.85 * Math.PI],
+                "k-and-d": [[70, 30], ["#36326f", "#ffffff"], [0, 0], 87, -0.85 * Math.PI],
+                "damage": [[15, 85], ["#36326f", "#ffffff"], [0, 0], 87, -0.85 * Math.PI],
+                "eliminations": [[60, 40], ["#36326f", "#ffffff"], [0, 0], 87, -0.85 * Math.PI],
+                "like-and-report": [[20, 30, 20, 30], ["#05ff78", "#ffffff", orangeRedGradient, "#ffffff"], [0, 0, 0, 0], 87, -0.85 * Math.PI]
+            };
+        </script>
+    </div>
+<footer>
+    <div class="footer">
+        <div class="wrap">
+            <div class="footer-inner">
+                <div class="pubg-tracker">
+                    <div class="pubg-tracker-container">
+                        <a href="wiki.com" class="pubg-tracker__link">
+                            <img src="static/img/pubg.png" class="pubg-tracker__img">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="overwatch-rights">
+                        <img src="static/img/overwatch-logo.png" class="overwatch-right__logo">
+                        <p class="footer-bottom__text_top">© 2017 OverwatchersFinder.</p>
+                        <p class="footer-bottom__text_bottom">All rights reserved.</p>
+                    </div>
+                    <ul class="footer-menu">
+                        <li class="footer-menu__item">
+                            <p class="footer-menu__heading">timefinder</p>
+                            <a href="vk.com" class="footer-menu__link">
+                                <p class="footer-menu__text">PC</p>
+                            </a>
+                            <a href="vk.com" class="footer-menu__link">
+                                <p class="footer-menu__text">X-BOX</p>
+                            </a>
+                            <a href="vk.com" class="footer-menu__link">
+                                <p class="footer-menu__text">PlayStation</p>
+                            </a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <p class="footer-menu__heading">tournaments</p>
+                            <a href="vk.com" class="footer-menu__link">
+                                <p class="footer-menu__text">Leagues</p>
+                            </a>
+                            <a href="vk.com" class="footer-menu__link">
+                                <p class="footer-menu__text">Events</p>
+                            </a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <p class="footer-menu__heading">About</p>
+                            <a href="vk.com" class="footer-menu__link">
+                                <p class="footer-menu__text">FAQ</p>
+                            </a>
+                            <a href="vk.com" class="footer-menu__link">
+                                <p class="footer-menu__text">Privacy Policy</p>
+                            </a>
+                            <a href="vk.com" class="footer-menu__link">
+                                <p class="footer-menu__text">Terms of service</p>
+                            </a>
+                            <a href="vk.com" class="footer-menu__link">
+                                <p class="footer-menu__text">Contact Us</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="footer-social-media">
+                        <span class="social-media__item">
+                            <a href="#" target="_blank" class="social-media__link">
+                                <svg class="media-icon">
+                                    <use xlink:href="static/img/media-sheet.svg#google"></use>
+                                </svg>
+                            </a>
+                        </span>
+                        <span class="social-media__item">
+                            <a href="#" target="_blank" class="social-media__link">
+                                <svg class="media-icon">
+                                    <use xlink:href="static/img/media-sheet.svg#twitter"></use>
+                                </svg>
+                            </a>
+                        </span>
+                        <span class="social-media__item">
+                            <a href="#" target="_blank" class="social-media__link">
+                                <svg class="media-icon">
+                                    <use xlink:href="static/img/media-sheet.svg#youtube"></use>
+                                </svg>
+                            </a>
+                        </span>
+                        <span class="social-media__item">
+                            <a href="#" target="_blank" class="social-media__link">
+                                <svg class="media-icon">
+                                    <use xlink:href="static/img/media-sheet.svg#vk"></use>
+                                </svg>
+                            </a>
+                        </span>
+                        <span class="social-media__item">
+                            <a href="#" target="_blank" class="social-media__link">
+                                <svg class="media-icon">
+                                    <use xlink:href="static/img/media-sheet.svg#facebook"></use>
+                                </svg>
+                            </a>
+                        </span>
+                        <span class="social-media__item">
+                            <a href="#" target="_blank" class="social-media__link">
+                                <svg class="media-icon">
+                                    <use xlink:href="static/img/media-sheet.svg#insta"></use>
+                                </svg>
+                            </a>
+                        </span>
+                        <p class="footer-bottom_designer">Designed by<a class="designer__link" href="#">Chelly</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script type="text/javascript" src="static/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="static/js/Chart.min.js"></script>
+<script type="text/javascript" src="static/js/app.js"></script>
